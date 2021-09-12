@@ -422,6 +422,12 @@ html {
 	padding-top:2em;
 	padding-bottom:1em;
 }
+.grid-container {
+	margin-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
 .header-image {
 	margin-top:1em;
 	text-align:center;
@@ -436,6 +442,7 @@ a {
 	-o-transition:all 0.2s ease-in-out;
 	transition:all 0.2s ease-in-out;
 }
+
 a:visited {
 	color:#666666;
 }
@@ -689,12 +696,12 @@ a:active,a:focus {
 }
 /* Thumbnail */
 .entry-thumbnail {
-	padding:1em 0 0em 0;
+	padding:1em 2em 0em 0;
 }
 .single-portfolio .entry-thumbnail {
 	padding: 2em 0 1.5em 0;
 }
-/* Entry Title */
+
 .entry-title {
 	font-weight:700;
 	font-size:20px;
