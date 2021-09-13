@@ -919,7 +919,7 @@ a.smoothup {
 .site-footer {
 	padding:2em 0;
 	text-align:center;
-	background-color:#333;
+	background-color:rgb(0, 0, 0);
 	color:#999;
 }
 .site-footer a {
